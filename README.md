@@ -3,6 +3,8 @@
 ## Summary
 A guided course lab where I used tcpdump on a Linux virtual machine to find the available network interfaces, inspect live traffic, save a filtered capture of web (TCP port 80) traffic to a `.pcap` file, and then read that file back in verbose and hex/ASCII formats.
 
+> Part of my [Incident Response Journal](https://github.com/john-danko-cyber/incident-response-journal) (Entry 3), which collects all my Detection and Response course labs.
+
 ## My Role
 I worked in the course's Linux lab VM as the `analyst` user. I ran every command, generated the HTTP traffic with curl, read and interpreted the output, and took the screenshots in this repo. The lab environment was provided by the course, and the only traffic captured was the lab VM's own.
 
